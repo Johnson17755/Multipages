@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+*,
+*::before,
+*::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+:root{
+    /* Text Color  */
+    --primary-color: #00BAFC;
+    --secondary-color: #014EBC;
+    --light-pink-color: #fffcf8;
+    --light-color: #cccccc;
+    --black-color: #000;
+    --white-color: #fff;
+    --box-shadow: 0.1rem -0.07rem 1.5rem 0.3rem rgb(0 0 0 / 26%);
+
+    /* font-family */
+    --primary-font: 'Lato', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+}
+
+body,
+html{
+    font-size: 10px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    line-height: 1.5;
+}
+
+h1{
+    color: var(--black-color);
+    font-size: 5.5rem;
+    font-weight: 800;
+    font-family: var(--secondary-font);
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+h2{
+    color: var(--white-color);
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+h2 span{
+    color: var(--primary-color);
+}
+
+h3{
+    color: var(--white-color);
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: var(--secondary-font);
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+h4{
+    color: var(--black-color);
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+h5{
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-family: var(--secondary-font);
+    line-height: 1;
+    margin-bottom: 0.9375rem;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    color: var(--white-color);
+}
+
+a,
+a:focus,
+a:hover,
+a:active,
+.btn:focus{
+    text-decoration: none;
+    box-shadow: none;
+    outline: 0;
+}
+
+.bg-black{
+    background-color: var(--black-color);
+}
+
+.main-btn{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+    padding: 0.9rem 3rem;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    transition: all .3s linear;
+    box-shadow: 0 0.63rem 0.4rem rgba(0,0,0,.3);
+}
+
+.main-btn:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+.view-link{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.view-link:hover{
+    color: var(--white-color);
+    font-size: 1.6rem;
+}
+
+.wrapper{
+    padding: 7rem 0;
+}
+
+.sec-title h1{
+    position: relative;
+}
+
+.sec-title h1::after{
+    position: absolute;
+    content: "";
+    background-color: var(--primary-color);
+    width: 50%;
+    height: 50%;
+    right: -0.4rem;
+    botton: 0%;
+    opacity: 0.5;
+}
+ /* 01 Navbar css */
+.header{
+    background-color: var(--black-color);
+    padding: 1rem 0;
+}
+
+.header .navbar-brand img{
+    width: 20rem;
+    height: auto;
+    object-fit: cover;
+}
+
+.header .navbar-nav .nav-link{
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    margin: 0 0.2rem;
+}
+
+ /* dropdown menu */
+ .header .dropdown-menu{
+    min-width: 13rem;
+    padding: 1.5rem 0;
+    background-color: var(--black-color);
+    border: 0.2rem solid var(--primary-color);
+ }
+
+ .header .dropdown-item{
+    line-height: 1.3;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: var(--white-color);
+    font-weight: 600;
+    font-family: var(--secondary-font);
+ }
+
+ .header .dropdown-toggle::after{
+    content: '+';
+    border: none;
+    vertical-align: middle;
+    font-size: 1.6rem;
+ }
+
+ .header .nav-item:hover > .dropdown-toggle::after,
+ .header .nav-link.dropdown-toggle.show{
+    color: var(--primary-color);
+ }
+
+ .header .dropdown-item:focus,
+ .header .dropdown-item:hover,
+ .header .navbar-nav .nav-link:hover{
+    color: var(--primary-color);
+    background-color: transparent;
+ }
+
+.header .navbar-nav li:hover> ul.dropdown-menu{
+    display: block;
+}
+
+.header .navbar-toggler{
+    color: var(--white-color);
+    font-size: 2rem;
+    height: 2.7em;
+    padding: 0;
+}
+
+.header .navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+ /* Banner Section */
+ .banner-wrapper{
+    margin-top: 8rem;
+    background-image: url('../images/grad.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5rem;
+}
