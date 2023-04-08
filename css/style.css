@@ -235,9 +235,16 @@ a:active,
     box-shadow: none;
 }
 
+/* .header-scrolled{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+} */
+
  /* Banner Section */
  .banner-wrapper{
-    margin-top: 8rem;
+    margin-top: 2rem;
     background-image: url('../images/grad.jpg');
     background-size: cover;
     background-position: center center;
@@ -246,3 +253,95 @@ a:active,
     height: auto;
     padding-bottom: 5rem;
 }
+/* parallax-effect  */
+.parallax{
+    position: relative;
+    background-position: left;
+    background-size: 48%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.parallax-1{
+    position: relative;
+    background-position: right;
+    background-size: 48%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.parallax-main{
+    position: relative;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.parallax.img1{
+    background-image: url('../images/market.jpg');
+    height: 100%;
+}
+.parallax.img2{
+    background-image: url('../images/house3.jpg');
+    height: 608px;
+}
+.parallax.img3{
+    background-image: url('../images/house2.jpg');
+    height: 608px;
+}
+.parallax.img4{
+    background-image: url('../images/house1.jpg');
+    height: 608px;
+}
+.parallax.img5{
+    background-image: url('../images/house.jpg');
+    height: 608px;
+}
+
+/* About css  */
+.main-wrapper{
+    margin-top: 80vh;
+    background-color: var(--white-color);
+    width: 100%;
+}
+.main-wrapper .black-card{
+    position: absolute;
+    top: 25%;
+    left: -400px;
+    width: calc(100% - 20%);
+    box-shadow: var(--box-shadow);
+    background-color: var(--black-color);
+    padding: 2.5rem;
+    border-radius: 15rem;
+    text-align: left;
+    z-index: 1;
+}
+
+.main-wrapper .black-card.right{
+    right: -400px;
+    left: unset;
+}
+
+/* process css */
+
+/* work css */
+
+
+/* Testimonial css */
+
+
+/* footer */
+
+
+ /* whatsapp intgration */

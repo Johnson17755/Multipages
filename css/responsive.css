@@ -1,8 +1,13 @@
 
 /* Media query 1170px */
 @media(max-width:1199.5px){
-/* paralex */
-
+/* parallax */
+    .parallax:not(.parallax-main){
+        background-size: 50%;
+    }
+    .main-wrapper .black-card{
+        width: 100%;
+    }
 /* process */
 
 
@@ -16,17 +21,34 @@
   /* Media Query 991px */
 @media (max-width:991.5px) {
     /* Navbar css  */
-    .header
+    .header .navbar-collapse{
+        padding:2rem;
+    }
+    .header .navbar-nav .nav-link{
+        padding: 0.6rem 0.5rem;
+        margin: 2rem;
+    }
 
 
     /* Banner  */
-
+    .banner-wrapper{
+        margin-top: 4rem;
+        padding: 4rem 2rem;
+        min-height: 730px;
+    }
     /* card  */
 
-
+    .main-wrapper .black-card{
+        left: -226px;
+    }
+    .main-wrapper .black-card.right{
+        right: -226px;
+    }
 
     /* parallax css  */
-
+    .parallax-main{
+        background-size: cover;
+    }
 
     /* contact page */
 
@@ -37,12 +59,32 @@
 @media (max-width:767.5px){
 
     /* General css */
-
+    body,
+    html{
+        font-size: 8px;
+    }
     /* banner  */
+    .banner-wrapper{
+        min-height: 550px;
+    }
 
+    /* card  */
+    .main-wrapper .black-card{
+        left: 5%;
+        width: 90%;
+    }
+    .main-wrapper .black-card.right{
+        right: 5%;
+        width: 90%;
+    }
 
     /* Parallax css  */
-
+    .parallax:not(.parallax-main){
+        background-size: cover;
+    }
+    .parallax-1{
+        background-size: cover;
+    }
     /* contact  */
 
 
@@ -51,7 +93,21 @@
 @media (max-width:590px){
 
     /* General css */
+    body,
+    html{
+        font-size: 7px;
+    }
 
+    /* .parallax */
+    .parallax.img2,
+    .parallax.img3,
+    .parallax.img4,
+    .parallax.img5{
+        height: 408px;
+    }
+    .main-wrapper{
+        margin-top: 35vh;
+    }
 
     /* footer */
 
@@ -63,6 +119,11 @@
 
 /* @media query 380px */
 @media (max-width:390.4px){
-
+    hi{
+        font-size: 27px;
+    }
+    h2{
+        font-size: 25px;
+    }
 
 }
