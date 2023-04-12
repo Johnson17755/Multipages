@@ -444,3 +444,43 @@ a:active,
     bottom: 1rem;
     right: 0.5rem;
 }
+/* ********************************
+ ABOUT PAGE 
+*********************************** */
+.about .abilities-wrapper ul{
+    list-style: none;
+    padding: 0;
+}
+.about .abilities-wrapper h3{
+    color: var(--black-color);
+}
+.about .abilities-wrapper ul li p{
+    color: var(--black-color);
+}
+
+  /* TEAM */
+.about .team-wrapper .card .team-img{
+    width: 15rem;
+    height: 15rem;
+    margin: 0;
+    border-radius: 50%;
+    border: 0.5rem solid var(--primary-color);
+}
+.about .team-wrapper .card .team-img img{
+    border-radius: 50%;
+}
+.about .team-wrapper .card .team-detail h5{
+    font-weight: 800;
+    color: var(--black-color);
+    margin-bottom: 0;
+    padding-left: auto;
+    padding-top: 2.5rem;
+    align-items: center;
+}
+.about .team-wrapper .card .team-detail p{
+    color: var(--black-color);
+    margin: 0;
+}
+ /* *********************************
+  PORTFOLIO PAGE
+ *************************************/
