@@ -14,7 +14,12 @@
     }
 
 /* contact page  */
-
+    .form-section{
+        padding: 4rem 1rem;
+    }
+    .contact .get-in-touch .card{
+        padding: 2rem 1rem;
+    }
 
 
 }
@@ -53,7 +58,9 @@
     }
 
     /* contact page */
-
+    .contact .get-in-touch .card{
+        min-height: 350px;
+    }
 
 }
 
@@ -88,7 +95,9 @@
         background-size: cover;
     }
     /* contact  */
-
+    .contact .get-in-touch .card{
+       min-height: 310px;
+    }
 
 }
 
@@ -118,7 +127,9 @@
     }
 
     /* contact page */
-
+    .contact .get-in-touch .card{
+        min-height: 254px;
+     }
 
 }
 

@@ -484,3 +484,60 @@ a:active,
  /* *********************************
   PORTFOLIO PAGE
  *************************************/
+ .portoflio-services .card-detail{
+    box-shadow: var(--box-shadow);
+    background-color: var(--black-color);
+    border-radius: 2rem;
+    padding: 3rem;
+    margin-top: 2rem;
+ }
+ .portoflio-services .card-detail h5{
+    font-weight: 800;
+    font-family: var(--secondary-font);
+ }
+
+ /************************************
+  contact page  
+ *************************************/
+ .contact .get-in-touch .card{
+    background-color: var(--white-color);
+    min-height: 36rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+ }
+ .contact .card i{
+    font-size: 8rem;
+    margin-bottom: 3rem;
+ }
+ .contact .card h4{
+    font-weight: 800;
+ }
+ .contact .card p{
+    color: var(--black-color);
+ }
+ .contact .card p:last-child{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+ }
+.form-section{
+    padding: 10rem;
+    background-color: var(--black-color);
+    box-sizing: var(--box-shadow);
+    border-radius: 2rem;
+}
+.form-section .form-control:focus{
+    box-shadow: none;
+    border-color: var(--light-color);
+}
+.form-section .form-control{
+    height: 4.5rem;
+    border: 0.1rem solid var(--light-color);
+    font-size: 1.5rem;
+}
+.form-section textarea{
+    border: 0.1rem solid var(--black-color);
+    font-size: 1.5rem;
+    min-height: 20rem;
+}
