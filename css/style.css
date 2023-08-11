@@ -159,7 +159,7 @@ a:active,
     width: 50%;
     height: 50%;
     right: -0.4rem;
-    button: 0%;
+    botton: 0%;
     opacity: 0.5;
 }
  /* 01 Navbar css */
@@ -290,7 +290,7 @@ a:active,
     height: 100vh;
 }
 .parallax.img1{
-    background-image: url('../images/Banner-1.jpg');
+    top: 0;
     height: 100%;
 }
 .parallax.img2{
