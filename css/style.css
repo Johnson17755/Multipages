@@ -159,7 +159,7 @@ a:active,
     width: 50%;
     height: 50%;
     right: -0.4rem;
-    botton: 0%;
+    bottom: 0%;
     opacity: 0.5;
 }
  /* 01 Navbar css */
@@ -290,7 +290,7 @@ a:active,
     height: 100vh;
 }
 .parallax.img1{
-    top: 0;
+    background-image: url('../images/Banner-1.jpg');
     height: 100%;
 }
 .parallax.img2{
@@ -440,7 +440,7 @@ a:active,
 }
 .whatsapp-icon .whatsapp{
     position: fixed;
-    width: 6rem;
+    width: 8rem;
     z-index: 1;
     bottom: 1rem;
     right: 0.5rem;
