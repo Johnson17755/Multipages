@@ -20,6 +20,9 @@
     .contact .get-in-touch .card{
         padding: 2rem 1rem;
     }
+    .whatsapp-icon .whatsapp{
+        width: 8rem;
+    }
 
 
 }
@@ -36,7 +39,6 @@
         margin: 2rem;
     }
 
-
     /* Banner  */
     .banner-wrapper{
         margin-top: 4rem;
@@ -44,12 +46,14 @@
         min-height: 730px;
     }
     /* card  */
-
     .main-wrapper .black-card{
         left: -226px;
     }
     .main-wrapper .black-card.right{
         right: -226px;
+    }
+    .whatsapp-icon .whatsapp{
+        width: 8rem;
     }
 
     /* parallax css  */
@@ -94,6 +98,9 @@
     .parallax-1{
         background-size: cover;
     }
+    .whatsapp-icon .whatsapp{
+        width: 10rem;
+    }
     /* contact  */
     .contact .get-in-touch .card{
        min-height: 310px;
@@ -125,6 +132,9 @@
         width: 30px;
         height: 30px;
     }
+    .whatsapp-icon .whatsapp{
+        width: 10rem;
+    }
 
     /* contact page */
     .contact .get-in-touch .card{
@@ -140,6 +150,9 @@
     }
     h2{
         font-size: 25px;
+    }
+    .whatsapp-icon .whatsapp{
+        width: 10rem;
     }
 
 }
